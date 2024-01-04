@@ -11,15 +11,12 @@
   <div class="big-card__title">
     <h1>
       
-      <a href="#">{{cardTitleBigCard}}</a>
+      <a [routerLink]="['content', Id]"> {{cardTitleBigCard}}</a>
     </h1>
   </div>
   <div class="big-card__discription">
     <p>
-      <a href="">
-       {{cardDescriptionBigCard}}
-       
-      </a>
+      <a [routerLink]="['content', Id] ">  {{cardDescriptionBigCard}}</a>
     </p>
   </div>
 </div>
